@@ -142,7 +142,7 @@
 ## 当前状态与下一步
 
 - 环境核对日期：2026-11-16。现有虚拟环境使用 Python 3.12.13；已装笔记本内核 ipykernel、交互式工作台 JupyterLab 和笔记本应用 notebook，并补齐 NumPy 2.5.5、pandas 3.1.1、Matplotlib 3.11.2。传统模型与神经网络框架按后续课程引入。
-- 已建立 `pyproject.toml`、`uv.lock` 和 Git 仓库。本地 `main` 跟踪 `origin/main`；远程为用户指定的公开仓库 `https://github.com/troywjz/ZhiXing-ML`。当前教学改动保存在本地工作区，待具体发布指令。
+- 已建立 `pyproject.toml`、`uv.lock` 和 Git 仓库。本地 `main` 跟踪 `origin/main`；远程为用户指定的公开仓库 `https://github.com/troywjz/ZhiXing-ML`。项目骨架与前三课已通过 PR #1 合并进 `main` 并推送远程，功能分支已清理。
 - 本次交付前三课、依赖声明、学习入口和检查工具，课程进度为 3/28。下一步制作第 03 课单变量线性回归，并按读者对前三课的反馈微调讲解密度。
 
 | 优先级 | 任务 | 交付与验收 | 状态 |
