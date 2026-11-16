@@ -1,0 +1,21 @@
+/.venv/
+/.idea/
+**/.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+/.env
+/.env.*
+!/.env.example
+/test.ipynb
+/本地资料/
+/数据/原始私有/
+/输出/
+/.jupyter/
+/.jupyter_runtime/
+/.pytest_cache/
+/.ruff_cache/
+
+# 操作系统生成文件
+.DS_Store
+Thumbs.db
+Desktop.ini
