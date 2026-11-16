@@ -1,0 +1,23 @@
+[project]
+name = "zhixing-ml"
+version = "0.1.0"
+description = "知行机器学习：边学边跑的中文机器学习实战教程"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel>=6.29,<8",
+    "jupyterlab>=4.4,<5",
+    "notebook>=7.4,<8",
+    "numpy>=2.2,<3",
+    "pandas>=2.2,<4",
+    "matplotlib>=3.9,<4",
+]
+
+[dependency-groups]
+dev = [
+    "nbclient>=0.10,<1",
+    "nbconvert>=7.16,<8",
+    "nbformat>=5.10,<6",
+]
+
+[tool.uv]
+package = false
